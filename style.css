@@ -65,6 +65,10 @@ html {
   color: var(--yellow);
 }
 
+.header .navbar.active {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
 .header .navbar a {
   font-size: 1.7rem;
   margin: 0.1rem;
@@ -83,6 +87,10 @@ html {
   color: var(--light-color);
   cursor: pointer;
   display: none;
+}
+
+#menu-btn.fa-times {
+  transform: rotate(180deg);
 }
 
 /* .header #login-btn i{
