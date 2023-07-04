@@ -1,7 +1,13 @@
-*{
+* {
     font-family: poppins, "sans-serif";
   }
-
+  
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  
   .header-nav ul {
     display: flex;
     flex-direction: row;
@@ -27,3 +33,4 @@
     flex-wrap: wrap;
     height: 100%;
   }
+  
