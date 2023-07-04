@@ -23,8 +23,7 @@ window.addEventListener('scroll', () => {
     {
         document.querySelector('.header').classList.remove('active');
     }
-    menu.classList.remove('fa-times'); // remove class fa-times
-    navbar.classList.remove('active'); // remove class active   
+ 
 });
 
 
@@ -39,3 +38,25 @@ window.onload = () => {
         document.querySelector('.header').classList.remove('active');
     }
 };
+
+
+document.querySelector('.home').onmousemove = (e) => {
+    document.querySelectorAll('.home-parallax').forEach(elm => {
+
+    let speed = elm.getAttribute('data-speed');
+
+    let x = (window.innerWidth - e.pageX*speed)/90;
+    let y = (window.innerHeight - e.pageY*speed)/90;
+
+    elm.style.transform = `translateX(${x}px) translateY(${y}px)`;
+});
+
+};
+
+document.querySelector('.home').onmouseleave = () => {
+    document.querySelectorAll('.home-parallax').forEach(elm => {
+
+    elm.style.transform = `translateX(0px) translateY(0px)`;
+});
+
+}; 
