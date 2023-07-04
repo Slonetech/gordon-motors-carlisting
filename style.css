@@ -34,6 +34,11 @@ html {
   font-weight: 500;
   font-size: 1.7rem;
   cursor: pointer;
+  padding: 0.8rem 3rem;
+}
+
+.btn:hover {
+  background: var(--yellow);
 }
 
 .header {
@@ -68,4 +73,59 @@ html {
 
 .header .navbar a:hover {
   color: var(--yellow);
+}
+
+.header .btn {
+  margin-top: 0;
+}
+
+/* .header #login-btn i{
+  font-size: 2.5rem;
+  color: var(--light-color);
+  cursor: pointer;
+  display: none;
+} */
+
+/* css media queries for responsive design */
+
+@media (max-width: 990px) {
+  html {
+    font-size: 55%;
+  }
+  .header {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* .header #login-btn i{
+  display: block;
+} */
+ .header #login-btn .btn{
+  display: none;
+}
+
+.header .navbar{
+  position: absolute;
+  top: 99%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-top: var(--border);
+  }
+
+  .header .navbar a{
+    display: block;
+    margin: 2rem;
+    font-size: 2rem;
+
+  }
+
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
 }
