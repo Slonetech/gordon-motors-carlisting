@@ -1,36 +1,26 @@
+:root {
+  --yellow: #f9d806;
+  --light-yellow: #ffee80;
+  --black: #130f40;
+  --light-color: #666;
+  --border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  --box-shadow: 0 0.5rem 1 rem rgba(0, 0, 0, 0.1);
+}
+
 * {
-    font-family: poppins, "sans-serif";
-  }
-  
-  .header {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-  }
-  
-  .header-nav ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    gap: 5%;
-    width: 100%;
-  }
-  
-  .main-container {
-    width: 100%;
-  }
-  
-  #car-listings {
-    display: flex;
-    background-color: red;
-    flex-wrap: wrap;
-    gap: 20px;
-    width: 100%;
-  }
-  
-  .car {
-    margin: 20px 0 20px 20px;
-    flex-wrap: wrap;
-    height: 100%;
-  }
-  
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s all linear;
+}
+
+html {
+  font-size: 62%;
+  overflow-x: hidden;
+  scroll-padding-top: smooth;
+}
