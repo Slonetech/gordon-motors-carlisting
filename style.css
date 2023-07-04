@@ -102,18 +102,18 @@ body {
   transform: rotate(180deg);
 }
 
-/* .header #login-btn i{
+.header #login-btn i {
   font-size: 2.5rem;
   color: var(--light-color);
   cursor: pointer;
   display: none;
-} */
+}
 
 /* css media queries for responsive design */
 
 .login-form-container {
   position: fixed;
-  top: 0;
+  top: -105%;
   left: 0;
   z-index: 1000;
   height: 100%;
@@ -122,6 +122,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 0;
+}
+
+.login-form-container.active {
+  top: 0;
+  opacity: 1;
 }
 
 .login-form-container form {
@@ -175,14 +181,23 @@ body {
   text-decoration: underline;
 }
 
+.login-form-container #close-login-form {
+  position: absolute;
+  top: 1.5rem;
+  right: 2.5rem;
+  font-size: 5rem;
+  color: var(--black);
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   #menu-btn {
     display: block;
   }
 
-  /* .header #login-btn i{
-  display: block;
-} */
+  .header #login-btn i {
+    display: block;
+  }
   .header #login-btn .btn {
     display: none;
   }
