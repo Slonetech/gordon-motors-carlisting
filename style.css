@@ -1,0 +1,35 @@
+*{
+    font-family: poppins, "sans-serif";
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  
+  .header-nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 5%;
+    width: 100%;
+  }
+  
+  .main-container {
+    width: 100%;
+  }
+  
+  #car-listings {
+    display: flex;
+    background-color: red;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .car {
+    margin: 20px 0 20px 20px;
+    flex-wrap: wrap;
+    height: 100%;
+  }
