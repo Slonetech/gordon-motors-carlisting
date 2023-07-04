@@ -18,3 +18,16 @@ window.addEventListener('scroll', () => {
     menu.classList.remove('fa-times'); // remove class fa-times
     navbar.classList.remove('active'); // remove class active   
 });
+
+
+window.onload = () => {
+    if(window.scrollY > 0) {
+        document.querySelector('.header').classList.add('active');
+    }
+    else
+    {
+        document.querySelector('.header').classList.remove('active');
+    }
+    menu.classList.remove('fa-times'); // remove class fa-times
+    navbar.classList.remove('active'); // remove class active   
+};
