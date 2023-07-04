@@ -25,6 +25,17 @@ html {
   scroll-padding-top: smooth;
 }
 
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 5rem;
+  background: var(--light-yellow);
+  color: var(--black);
+  font-weight: 500;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -49,14 +60,12 @@ html {
   color: var(--yellow);
 }
 
-
-.header .navbar a{
+.header .navbar a {
   font-size: 1.7rem;
   margin: 0.1rem;
   color: var(--black);
 }
 
-
-.header .navbar a:hover{
+.header .navbar a:hover {
   color: var(--yellow);
 }
