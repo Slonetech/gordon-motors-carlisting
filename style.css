@@ -286,13 +286,19 @@ body {
 
 .vehicles .vehicles-slider .box img {
   width: 100%;
-  /* opacity: 0.5;
-  transform: scale(0.8); */
+  opacity: 0.5;
+  transform: scale(0.8);
 }
 
 .vehicles .vehicles-slider .box .content {
   transform: scale(0);
   padding-top: 1rem;
+}
+
+.vehicles .vehicles-slider .swiper-slide-active img
+{
+  opacity: 1;
+  transform: scale(1);
 }
 
 .vehicles .vehicles-slider .box .content h3 {
