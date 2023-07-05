@@ -295,9 +295,12 @@ body {
   padding-top: 1rem;
 }
 
-.vehicles .vehicles-slider .swiper-slide-active img
-{
+.vehicles .vehicles-slider .swiper-slide-active img {
   opacity: 1;
+  transform: scale(1);
+}
+
+.vehicles .vehicles-slider .swiper-slide-active .content {
   transform: scale(1);
 }
 
@@ -347,6 +350,46 @@ body {
 
 .icons-container .icons:hover .content p {
   color: #eee;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--yellow);
+}
+
+.services .box-containers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+  background: #eee;
+}
+
+.services .box-containers .box {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+}
+.services .box-containers .box h3 {
+  color: var(--black);
+  font-size: 2.2rem;
+}
+
+.services .box-containers .box p {
+  color: var(--light-color);
+  font-size: 1.4rem;
+  padding: 1rem 0;
+  line-height: 1.9;
+}
+.services .box-containers .box:hover {
+  background: var(--black);
+}
+
+.services .box-containers .box:hover h3 {
+  color: #fff;
+}
+.services .box-containers .box:hover p {
+  color: #fff;
 }
 
 @media (max-width: 768px) {
