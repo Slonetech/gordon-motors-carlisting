@@ -103,8 +103,8 @@ section {
 }
 
 .header .navbar a {
-  font-size: 1.7rem;
-  margin: 0.1rem;
+  font-size: 1.9rem;
+  margin: 0.9rem;
   color: var(--black);
 }
 
@@ -230,14 +230,15 @@ body {
 }
 
 .home h1 {
-  font-size: 7.5vw;
+  font-size: 9.5vw;
   text-transform: uppercase;
   color: var(--black);
 }
 
 .home img {
   width: 100%;
-  border-radius: 25%;
+  height: 20%;
+  border-radius: 2%;
   margin: 1rem 0;
 }
 
@@ -630,7 +631,7 @@ body {
     display: none;
   }
 
-  /* .header .navbar {
+  .header .navbar {
     position: absolute;
     top: 99%;
     left: 0;
@@ -638,13 +639,13 @@ body {
     background: #fff;
     border-top: var(--border);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  } */
-  /* 
+  }
+
   .header .navbar a {
     display: block;
     margin: 2rem;
     font-size: 2rem;
-  } */
+  }
 
   @media (max-width: 990px) {
     html {
