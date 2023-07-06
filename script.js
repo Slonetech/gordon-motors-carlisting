@@ -62,7 +62,7 @@ document.querySelector('.home').onmouseleave = () => {
 }; 
 
 // swiper js 
-var swiper = new Swiper(".vehicles-slider", {
+let swiper = new Swiper(".vehicles-slider", {
     slidesPerView: 1,
     spaceBetween: 20,
     grabCursor: true,
@@ -93,7 +93,7 @@ var swiper = new Swiper(".vehicles-slider", {
   });
 
 
-  var swiper = new Swiper(".featured-slider", {
+   swiper = new Swiper(".featured-slider", {
     slidesPerView: 1,
     spaceBetween: 20,
     grabCursor: true,
@@ -123,7 +123,7 @@ var swiper = new Swiper(".vehicles-slider", {
     },
   });
 
-  var swiper = new Swiper(".reviews-slider", {
+   swiper = new Swiper(".reviews-slider", {
     slidesPerView: 1,
     spaceBetween: 20,
     grabCursor: true,
