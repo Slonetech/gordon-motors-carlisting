@@ -41,3 +41,8 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 - The project utilizes the [FontAwesome](https://fontawesome.com/) icon library for star ratings.
 - The car data used in this project is fictional and for demonstration purposes only.
 - swiperjs.com for adding sliders functionality via CDN
+ 
+ ## Deployment link
+         https://slonetech.github.io/gordon-motors-carlisting/
+
+        
