@@ -104,7 +104,7 @@ section {
 
 .header .navbar a {
   font-size: 1.9rem;
-  margin: 0.9rem;
+  margin: 2rem;
   color: var(--black);
 }
 
@@ -370,6 +370,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
+
   background: #eee;
 }
 
