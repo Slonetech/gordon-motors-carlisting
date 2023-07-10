@@ -16,7 +16,7 @@ Gordon Motors Car Listing is a web application that allows users to browse and s
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/gordon-motors-car-listing.git`
+1. Clone the repository: `git clone https://github.com/Slonetech/gordon-motors-car-listing.git`
 2. Navigate to the project directory: `cd gordon-motors-car-listing`
 3. Open the `index.html` file in your preferred web browser.
 
